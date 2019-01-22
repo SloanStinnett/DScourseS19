@@ -3,7 +3,7 @@
 
 TeX is a typesetting system.  It's quite helpful for scientific document as it simplifies the process of writing equations and compiling your bibliography.
 
-I recommend using [ShareLaTeX](https://sharelatex.com) for anyone who has not used LaTeX before. It's free, on the cloud, and will compile your documents in real time. Plus, it has a great built-in help site.
+I recommend using [Overleaf](https://overleaf.com) for anyone who has not used LaTeX before. It's free, on the cloud, and will compile your documents in real time. Plus, it has a great built-in help site.
 
 If you're interested in installing TeX on your laptop or computer, you can download the following software programs:
 * Unix/Linux: [TeX Live](https://www.tug.org/texlive/)
@@ -110,7 +110,7 @@ While you can easily access the command line of a remote server via any SSH clie
 
 ## 5. Git and GitHub tutorial
 
-I have included a tutorial on using [Git and GitHub.com](https://github.com/tyleransom/DScourseS18/blob/master/Productivity/git_tutorial.pdf) (reproduced with permission from [Rick Evans](https://github.com/rickecon) at U Chicago). Git is a powerful version control software that comes natively installed on many machines and is widely used. GitHub.com is the most widely used online platform for hosting open source projects and integrating with Git software. Git has a significant learning curve, but it is essential for large collaborations that involve software development.
+I have included a tutorial on using [Git and GitHub.com](https://github.com/tyleransom/DScourseS19/blob/master/Productivity/git_tutorial.pdf) (reproduced with permission from [Rick Evans](https://github.com/rickecon) at U Chicago). Git is a powerful version control software that comes natively installed on many machines and is widely used. GitHub.com is the most widely used online platform for hosting open source projects and integrating with Git software. Git has a significant learning curve, but it is essential for large collaborations that involve software development.
 
 ### Git Humor from [xkcd](https://xkcd.com)
 
