@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS6\_Stinnett}
+\author{sloan.c.stinnett-1 }
+\date{March 2019}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Transforming the data}
+To transform the data into a usable state for my purposes I needed to have a column that contained the names of all the defendants that appeared before the court and of all the prosecutors that appeared before the court. I used r to split the first column "case name" into two columns "prosecutor" and "defense". I then bound these columns back to the "RehnquistCourt" data. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.5]{tablefordefendants}
+\caption{defendants}
+\label{fig:defendants}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.5]{tableforprosecutors}
+\caption{Prosecutors}
+\label{fig:prosecutors}
+\end{figure}
+
+
+\end{document}
