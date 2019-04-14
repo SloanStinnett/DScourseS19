@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS10_Stinnett}
+\author{sloan.c.stinnett-1 }
+\date{April 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+ \begin{table}[!htbp] \centering 
+  \caption{optimal parameters} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Parameter & \multicolumn{1}{c}{Tree} & 
+\multicolumn{1}{c}{Logit} & 
+\multicolumn{1}{c}{Neural Network} & 
+\multicolumn{1}{c}{k-nearest neighbor} & 
+\multicolumn{1}{c}{Support vector machine} & 
+\\ 
+\hline \\[-1.8ex] 
+k &  - & - & - & 27 & -\\ 
+minsplit & 10 & - & - & - & -\\ 
+minbucket & 6 & - & - & - & -\\
+cp & 0.0269 & - & - & - & -\\
+\lambda & - & 0.0263 & -& -& - \\
+\alpha & - & 0.786 & -& -& -\\
+size & -& -& 9 & -& -\\
+decay & -& -& 0.19 & -& -\\
+maxit & -& -& 1000 & -& - \\
+cost & -& -& -& -& 1\\
+\gamma & -& -& -& -& 0.25\\
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+Checking performance using mean square error the five models from best to worst are 
+\begin{enumerate}
+\item Support Vector Machine (0.1424843)
+\item Neural Network(0.1429449)
+\item k-nearest neighbor(0.1566099)
+\item Logit(0.1627514)
+\item Tree(0.1655151)
+\item Naive Bayes(0.1794872)
+\end{enumerate}
+\end{document}
