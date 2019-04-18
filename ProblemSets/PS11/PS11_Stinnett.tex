@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS11 Stinnett}
+\author{sloan.c.stinnett-1 }
+\date{April 2019}
+
+\usepackage[authoryear]{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\begin{itemize}
+    \item I will discuss the deep historical connection between law and rhetoric.
+    \item I will introduce the concepts of sentiment analysis and classification modeling.
+\end{itemize}
+\section{Literature Review}
+\begin{itemize}
+    \item I looked at literature concerning the application of classification modeling and sentiment analysis to judgement predictions in legal context.
+    \item I found the literature interestingly sparse but the studies I did find all had positive out looks for the future of the field and where able to create models that out-performed legal experts.
+    \item there are two papers that I have so far found the most interesting and served as my inspiration for further exploring the topic.
+    \begin{enumerate}
+        \item \cite{sulea_exploring_2017} In this paper Sulea et al use classifier ensembles to predict: the area of law the case was in ,the judgement in the case, and the era that the case came from. 
+        \item \cite{liu_two-phase_2018} In this paper Liu and Chen Introduce the use of sentiment score as a feature in judgement classification
+    \end{enumerate}
+\end{itemize}
+\section{Data}
+\begin{itemize}
+    \item I will be using a data set of conversations held in the supreme court between the Petitioners,Justices,and Respondents during oral argumentation. The data set has data from two hundred and four cases involving eleven justices and three hundred and eleven other participants.This data set comes from Cornell University 
+\end{itemize}
+\section{Methods}
+\begin{itemize}
+    \item I will use the nrc dictionary of sentiment terms built in to tidy text to generate a sentiment score for each interaction and use that to categorize the interaction as either positive or negative.
+    \item following the literature I would like to test both SVM and random forests methods for classifying the case as to one of the six outcomes given in the dataset using the sentiment categorization as a feature. 
+\end{itemize}
+\section{Findings}
+
+\section{Conclusion}
+
+
+ \citep{liu_two-phase_2018}
+ \citep{liu_web_2011}
+ \citep{sulea_exploring_2017}
+ \citep{noauthor_sentiment_nodate}
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
